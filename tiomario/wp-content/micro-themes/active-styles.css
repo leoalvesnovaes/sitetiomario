@@ -1,0 +1,139 @@
+/*  MICROTHEMER STYLES  */
+
+
+/*= Geral ===================== */
+
+/** Geral >> ajuste-preco_cardapio **/
+#post-8 .uagb-rm__price-wrap {
+	min-width: 100px !important;
+	max-width: 100px !important;
+}
+
+/** Geral >> layout-fotos-cardapio **/
+.uagb-rm__image > img {
+	width: 110px !important;
+	min-width: 100px !important;
+	max-width: 200px !important;
+	height: 110px !important;
+	max-height: 200% !important;
+	margin-right: 6px !important;
+}
+
+/** Geral >> rodape- footer **/
+#colophon .ast-footer-overlay {
+	padding-top: 12px !important;
+	padding-bottom: 12px !important;
+}
+
+/** Geral >> cardapio-completo_botao **/
+#post-8 .uagb-buttons-repeater {
+	box-shadow: 2px 2px 2px rgb(8, 8, 8) !important;
+}
+
+/** Geral >> itens_menu **/
+#site-navigation > .main-navigation {
+	font-size: 18px !important;
+}
+
+/** Geral >> icone_telefone **/
+#rodape_home svg {
+	margin-bottom: 150px !important;
+}
+
+/** Geral >> Masthead main header bar **/
+#masthead .main-header-bar {
+	box-shadow: 1px 1px 8px !important;
+}
+
+/** Geral >> recomendado-por **/
+.uagb-columns__columns-4 .uagb-column__inner-wrap {
+	height: 100px !important;
+}
+
+/** Geral >> mais-noticia-fundo **/
+.uagb-block-736f102b .uagb-infobox-cta-link {
+	box-shadow: 1px 1px 2px 1px rgb(0, 0, 0) !important;
+}
+
+/** Geral >> catalogo-imagem **/
+.uagb-block-922344fb img {
+	margin-bottom: 70px !important;
+}
+
+
+/*( Desktop grande )*/
+@media (min-width: 1200px) {
+
+	/*= Geral ===================== */
+
+	/** Geral >> celula-cardapio **/
+	#post-8 .uagb-rm__content {
+	height: 120px !important;
+	padding-top: 20px !important;
+	padding-right: 10px !important;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+
+	/** Geral >> layout-fotos-cardapio **/
+	.uagb-rm__image > img {
+	width: 110px !important;
+	max-width: 200px !important;
+	height: 110px !important;
+	max-height: 200% !important;
+	box-sizing: border-box !important;
+	margin-right: 6px !important;
+}
+
+
+}
+
+
+/*( Desktop e tablet )*/
+@media (min-width: 768px) and (max-width: 979px) {
+
+	/*= Geral ===================== */
+
+	/** Geral >> celula-cardapio **/
+	#post-8 .uagb-rm__content {
+	height: 250px !important;
+}
+
+	/** Geral >> itens_cardapio **/
+	#post-8 .uagb-rm__desc {
+	font-size: 14px !important;
+	margin-top: 50px !important;
+}
+
+	/** Geral >> ajuste-preco_cardapio **/
+	#post-8 .uagb-rm__price-wrap {
+	margin-top: 15px !important;
+}
+
+	/** Geral >> cardapio_produto **/
+	.uagb-rm__image-aligned-middle:nth-of-type(1) strong {
+	width: 1111px !important;
+	min-width: 11111px !important;
+	max-width: 1111px !important;
+	height: 111px !important;
+	min-height: 111px !important;
+	max-height: 111% !important;
+}
+
+
+}
+
+
+/*( Tablet & celular )*/
+@media (max-width: 767px) {
+
+	/*= Geral ===================== */
+
+	/** Geral >> layout-fotos-cardapio **/
+	.uagb-rm__image > img {
+	margin-bottom: 22px !important;
+}
+
+
+}
+
